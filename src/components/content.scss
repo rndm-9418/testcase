@@ -1,0 +1,18 @@
+.content{
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+
+	@media (min-width: 768px) {
+	  	padding-top: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	@media (min-width: 1280px) {
+	  	padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
